@@ -630,6 +630,21 @@ export const assetsList: Asset[] = [
     color: '#358ed0',
     icon: icons.tribe,
   },
+
+  // Aurora icons
+  {
+    name: 'WNEAR',
+    symbol: 'WNEAR',
+    color: '',
+    icon: icons.near,
+  },
+
+  {
+    name: 'Aurora',
+    symbol: 'AURORA',
+    color: '',
+    icon: icons.aurora,
+  },
 ];
 
 export const getAssetInfoFactory = (_assetsList: Asset[]) => (_assetSymbol: string): Asset => {

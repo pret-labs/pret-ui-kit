@@ -1,15 +1,15 @@
 {
-  "version": "0.1.16",
+  "version": "0.1.17",
   "private": false,
   "license": "BSD-3-Clause",
-  "description": "This package contains the ui components and helpers for AAVE projects",
+  "description": "This package contains the ui components and helpers for PRET projects",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "name": "@aave/aave-ui-kit",
-  "module": "dist/aave-ui-kit.esm.js",
+  "name": "@pret/pret-ui-kit",
+  "module": "dist/pret-ui-kit.esm.js",
   "repository": {
     "type": "git",
-    "url": "git@githab.com:aave/aave-ui-kit.git"
+    "url": "git+https://github.com/pret-labs/pret-ui-kit.git"
   },
   "files": [
     "dist"
