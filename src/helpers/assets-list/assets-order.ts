@@ -1,5 +1,8 @@
 // eslint-disable-next-line import/prefer-default-export
 export const assetsOrder = [
+  'NEAR',
+  'WNEAR',
+  'AURORA',
   'MATIC',
   'WMATIC',
   'DAI',

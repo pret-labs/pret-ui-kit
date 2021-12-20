@@ -42,6 +42,8 @@ import frax from './frax.svg';
 import fei from './fei.svg';
 import usdp from './usdp.svg';
 import tribe from './tribe.svg';
+import near from './near.svg';
+import aurora from './aurora.svg';
 
 interface Images {
   [name: string]: string;
@@ -92,4 +94,6 @@ export default {
   fei,
   usdp,
   tribe,
+  near,
+  aurora,
 } as Images;
