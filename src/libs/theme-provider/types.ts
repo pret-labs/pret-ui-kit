@@ -2,8 +2,8 @@ export interface Themes {
   [key: string]: {
     headerBg: { hex: string; rgb: number[] };
     mainBg: { hex: string; rgb: number[] };
-    mainBgNoLogin: { hex: string; rgb: number[] },
-    loginCardBg: {hex: string; rgb: number[]},
+    mainBgNoLogin: { hex: string; rgb: number[] };
+    loginCardBg: { hex: string; rgb: number[] };
     primary: { hex: string; rgb: number[] };
     secondary: { hex: string; rgb: number[] };
     darkBlue: { hex: string; rgb: number[] };

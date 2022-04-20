@@ -5,7 +5,7 @@ export const themes: Themes = {
   default: {
     headerBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
     mainBg: { hex: '#f1f1f3', rgb: [241, 241, 243] },
-    mainBgNoLogin: {hex: '#f4f6f8', rgb: [244, 246, 248]},
+    mainBgNoLogin: { hex: '#f4f6f8', rgb: [244, 246, 248] },
     loginCardBg: { hex: '#ffffff', rgb: [255, 255, 255] },
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
@@ -26,7 +26,7 @@ export const themes: Themes = {
   dark: {
     headerBg: { hex: '#20202e', rgb: [32, 32, 46] },
     mainBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
-    mainBgNoLogin: {hex: '#181a20', rgb: [24, 26, 32]},
+    mainBgNoLogin: { hex: '#181a20', rgb: [24, 26, 32] },
     loginCardBg: { hex: '#1e2329', rgb: [30, 34, 40] },
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
