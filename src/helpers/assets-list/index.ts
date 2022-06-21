@@ -638,19 +638,23 @@ export const assetsList: Asset[] = [
     color: '#121618',
     icon: icons.near,
   },
-
   {
     name: 'Wrapped NEAR',
     symbol: 'WNEAR',
     color: '#121618',
     icon: icons.near,
   },
-
   {
     name: 'Aurora',
     symbol: 'AURORA',
     color: '#89d05f',
     icon: icons.aurora,
+  },
+  {
+    name: 'LINEAR',
+    symbol: 'LINEAR',
+    color: '#1BB3CC',
+    icon: icons.linear,
   },
 ];
 

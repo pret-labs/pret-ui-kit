@@ -44,6 +44,7 @@ import usdp from './usdp.svg';
 import tribe from './tribe.svg';
 import near from './near.svg';
 import aurora from './aurora.svg';
+import linear from './linear.svg';
 
 interface Images {
   [name: string]: string;
@@ -96,4 +97,5 @@ export default {
   tribe,
   near,
   aurora,
+  linear,
 } as Images;
