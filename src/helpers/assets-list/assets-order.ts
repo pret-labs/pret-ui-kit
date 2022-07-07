@@ -3,6 +3,8 @@ export const assetsOrder = [
   'NEAR',
   'WNEAR',
   'AURORA',
+  'LINEAR',
+  'CORN',
   'MATIC',
   'WMATIC',
   'DAI',
