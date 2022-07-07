@@ -656,6 +656,12 @@ export const assetsList: Asset[] = [
     color: '#1BB3CC',
     icon: icons.linear,
   },
+  {
+    name: 'CORN',
+    symbol: 'CORN',
+    color: '#48297B',
+    icon: icons.corn,
+  },
 ];
 
 export const getAssetInfoFactory = (_assetsList: Asset[]) => (_assetSymbol: string): Asset => {
