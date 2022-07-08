@@ -651,7 +651,7 @@ export const assetsList: Asset[] = [
     icon: icons.aurora,
   },
   {
-    name: 'LINEAR',
+    name: 'LiNEAR',
     symbol: 'LINEAR',
     color: '#1BB3CC',
     icon: icons.linear,
