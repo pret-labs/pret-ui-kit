@@ -657,7 +657,7 @@ export const assetsList: Asset[] = [
     icon: icons.linear,
   },
   {
-    name: 'CORN',
+    name: 'Cornerstone',
     symbol: 'CORN',
     color: '#48297B',
     icon: icons.corn,
