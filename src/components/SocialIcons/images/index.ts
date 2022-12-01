@@ -13,6 +13,16 @@ import whiteGithubIcon from './whiteGithub.svg';
 import discordIcon from './discordIcon.svg';
 import colorDiscordIcon from './colorDiscord.svg';
 import whiteDiscordIcon from './whiteDiscord.svg';
+import gitbookIcon from './gitbookIcon.svg';
+import mediumIcon from './mediumIcon.svg';
+
+/**
+ * No design, use original icon instead.
+ */
+const colorGitbookIcon = gitbookIcon;
+const whiteGitbookIcon = gitbookIcon;
+const colorMediumIcon = mediumIcon;
+const whiteMediumIcon = mediumIcon;
 
 export {
   twitterIcon,
@@ -30,4 +40,10 @@ export {
   discordIcon,
   colorDiscordIcon,
   whiteDiscordIcon,
+  gitbookIcon,
+  colorGitbookIcon,
+  whiteGitbookIcon,
+  mediumIcon,
+  colorMediumIcon,
+  whiteMediumIcon,
 };

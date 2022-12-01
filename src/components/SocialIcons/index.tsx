@@ -6,11 +6,12 @@ import './style.scss';
 import * as img from './images';
 
 export enum SocialType {
-  Twitter = 'Twitter',
-  Instagram = 'Instagram',
-  Telegram = 'Telegram',
-  Github = 'Github',
   Discord = 'Discord',
+  Gitbook = 'Gitbook',
+  Github = 'Github',
+  Medium = 'Medium',
+  Twitter = 'Twitter',
+  Telegram = 'Telegram',
 }
 
 export interface SocialIcon {
@@ -35,30 +36,35 @@ interface SocialIconsWrapperProps extends SocialIconsProps {
 const ICONS: {
   [key in SocialType]: { icon: string; colorIcon: string; whiteIcon: string };
 } = {
-  [SocialType.Twitter]: {
-    icon: img.twitterIcon,
-    colorIcon: img.colorTwitterIcon,
-    whiteIcon: img.whiteTwitterIcon,
+  [SocialType.Discord]: {
+    icon: img.discordIcon,
+    colorIcon: img.colorDiscordIcon,
+    whiteIcon: img.whiteDiscordIcon,
   },
-  [SocialType.Instagram]: {
-    icon: img.instagramIcon,
-    colorIcon: img.colorInstagramIcon,
-    whiteIcon: img.whiteInstagramIcon,
-  },
-  [SocialType.Telegram]: {
-    icon: img.telegramIcon,
-    colorIcon: img.colorTelegramIcon,
-    whiteIcon: img.whiteTelegramIcon,
+  [SocialType.Gitbook]: {
+    icon: img.gitbookIcon,
+    colorIcon: img.colorGitbookIcon,
+    whiteIcon: img.whiteGitbookIcon,
   },
   [SocialType.Github]: {
     icon: img.githubIcon,
     colorIcon: img.colorGithubIcon,
     whiteIcon: img.whiteGithubIcon,
   },
-  [SocialType.Discord]: {
-    icon: img.discordIcon,
-    colorIcon: img.colorDiscordIcon,
-    whiteIcon: img.whiteDiscordIcon,
+  [SocialType.Medium]: {
+    icon: img.mediumIcon,
+    colorIcon: img.colorMediumIcon,
+    whiteIcon: img.whiteMediumIcon,
+  },
+  [SocialType.Twitter]: {
+    icon: img.twitterIcon,
+    colorIcon: img.colorTwitterIcon,
+    whiteIcon: img.whiteTwitterIcon,
+  },
+  [SocialType.Telegram]: {
+    icon: img.telegramIcon,
+    colorIcon: img.colorTelegramIcon,
+    whiteIcon: img.whiteTelegramIcon,
   },
 };
 
